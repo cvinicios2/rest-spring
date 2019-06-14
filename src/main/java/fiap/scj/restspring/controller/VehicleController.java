@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/vehicles")
 public class VehicleController {
 
-	@GetMapping("/")
+	@GetMapping("/teste")
 	public String olaMundo() {
 		return "teste";
 	}
